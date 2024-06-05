@@ -10,11 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
     <link rel="stylesheet" href="assets/css/swap.css">
-    <link rel="stylesheet" href="assets/css/boostrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media_query.css">
 </head>
-
 <body>
     <!-- === Background Animation === -->
     <div class="bg"></div>
@@ -179,7 +177,6 @@
                         <div class="circular_text_main ">
                             <a href="javascript:void(0)" class="down_arrow_main position-relative">
                                 <img class="circular_text" src="assets/images/circular_text.avif" alt="Texte circulaire menant à mes projets réalisés">
-                                <img class="down_arrow" src="assets/images/down_arrow.svg" alt="Flèche pointant vers le bas">
                             </a>
                         </div>
                     </div>
@@ -592,9 +589,8 @@
         </div>
     </div>
     <script src="assets/javascript/jquery.min.js"></script>
+    <script src="assets/javascript/progresscircle.js"></script>
     <script src="assets/javascript/cursor.js"></script>
-    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
     <script src="assets/javascript/script.js"></script>
 </body>
-
 </html>
