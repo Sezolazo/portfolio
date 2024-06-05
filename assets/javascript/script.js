@@ -1,10 +1,3 @@
-// Preloader
-// $(document).ready(function () {
-//     setTimeout(function () {
-//         $('.wrapper').addClass('loaded');
-//     }, 2500);
-// });
-
 // eski_sezgin  text
 document.getElementsByClassName("eski_sezgin")[0];
 // eski_sezgin text end
@@ -122,38 +115,6 @@ $("#close").on("click", function () {
     $(".overlay").removeClass("is-on");
 });
 // Portfolio Pop-up end
-
-// Share Btn
-// $(document).ready(function () {
-//     $(".share-btn").click(function (e) {
-//         $('.networks-5').not($(this).next(".networks-5")).each(function () {
-//             $(this).removeClass("active");
-//         });
-//         $(this).next(".networks-5").toggleClass("active");
-//     });
-// });
-// Share Btn End
-
-// Testimonial Card Slider
-$(function () {
-    $('.testimonials_card').on('init', function (event, slick) {
-        $(this).append('<div class="slick-counter"><span class="current"></span> / <span class="total"></span></div>');
-        $('.current').text(slick.currentSlide + 1);
-        $('.total').text(slick.slideCount);
-    })
-        .slick({
-            autoplay: true,
-            autoplaySpeed: 3000,
-            infinite: true,
-            arrows: true,
-            prevArrow: '<span class="prev-arrow"><i class="ri-arrow-left-s-line"></i></span>',
-            nextArrow: '<span class="next-arrow"><i class="ri-arrow-right-s-line"></i></span>',
-        })
-        .on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-            $('.current').text(nextSlide + 1);
-        });
-});
-// Testimonial Card Slider End
 
 // View More View Less btn
 $(document).ready(function () {

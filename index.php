@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
     <link rel="stylesheet" href="assets/css/swap.css">
     <link rel="stylesheet" href="assets/css/boostrap.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media_query.css">
 </head>
@@ -157,9 +155,6 @@
                 <div class="bio_contain">
                     <h1 class="eski_sezgin">Sezgin ESKI</h1>
                     <h2 class="designer font_w_font_s1 overflow-hidden"></h2>
-                    <button class="download_cv hire_me font_w_font_s">
-                        <i class="ri-at-line"></i> ME CONTACTER
-                    </button>
                 </div>
             </div>
             <div class="right_card_main icetab-content" id="icetab-content">
@@ -597,11 +592,8 @@
         </div>
     </div>
     <script src="assets/javascript/jquery.min.js"></script>
-    <script src="assets/javascript/magnific-popup.min.js"></script>
-    <script src="assets/javascript/progresscircle.js"></script>
     <script src="assets/javascript/cursor.js"></script>
     <script src="assets/javascript/bootstrap.bundle.min.js"></script>
-    <script src="assets/javascript/slick.min.js"></script>
     <script src="assets/javascript/script.js"></script>
 </body>
 
